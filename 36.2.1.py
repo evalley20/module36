@@ -4,4 +4,4 @@ import setup
 while True:
   x = RPL.analogRead(4)
   print('this is the sensor',x)
-  automatic_braking.break()
+  automatic_braking.brake()
